@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+   <body>
+   <h1>Attendance list</h1></br>
+      <table border = 1>
+         <thead>
+            <td>Name</td>
+            <td>attendance</td>
+    
+        </thead>
+        {%for row in ro%}
+            <tr>
+           <td>koustub</td>
+           <td>{{row[1]}}</td>
+            </tr>
+
+    
+           <tr>
+           <td>sourabh</td>
+           <td>{{row[2]}}</td>
+            </tr>
+
+    {%endfor%}
+            
+               
+
+      </table>
+      
+      <a href = "/">Go back to home page</a>
+      
+   </body>
+</html>
